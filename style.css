@@ -1,0 +1,118 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #2b283a;
+}
+
+h1,
+h3,
+body {
+  margin: 0;
+}
+
+/* typography */
+h1 {
+  font-size: 36px;
+  color: whitesmoke;
+}
+h2 {
+  margin-top: 0;
+}
+
+h3 {
+  color: #d0aaff;
+  font-size: 20px;
+}
+
+/* links */
+
+a {
+  color: #ef5839;
+  text-decoration: dotted underline;
+}
+
+a:hover,
+a:active {
+  color: #d4b44c;
+}
+
+/* layout */
+header,
+section,
+footer {
+  padding: 45px 0px;
+}
+
+header,
+.section-two {
+  background-color: #5f29a3;
+}
+
+.section-two {
+  color: whitesmoke;
+}
+
+.sneaker {
+  width: 100%;
+}
+
+.container {
+  width: 620px;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 23px;
+}
+
+/* section two */
+
+.feature-image {
+  border-radius: 4.6px;
+  width: 300px;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  color: #5f29a3;
+  font-size: 16px;
+}
+
+/* buttons */
+
+.btn {
+  padding: 10px 19px;
+  border-radius: 4.6px;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  margin: 5px 0;
+}
+.btn:hover,
+.btn:active {
+  background-color: #f3e885;
+  color: #2b283a;
+}
+
+.btn-dark {
+  background-color: #5f29a3;
+  color: whitesmoke;
+}
+
+.btn-mid {
+  background-color: #f0e0f0;
+  color: #5f29a3;
+}
+
+.btn-light {
+  background-color: whitesmoke;
+  color: #5f29a3;
+}
